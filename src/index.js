@@ -4,5 +4,18 @@
 //Created by YOURNAME.
 //Copyright CURRENTYEAR.
 //E.g.
-//Created by Angela Yu.
-//Copyright 2019.
+//Created by Joshua Daniels.
+//Copyright 2021.
+import React from "react";
+import ReactDOM from "react-dom";
+
+const myName = "Joshua Daniels";
+const currentYear = new Date().getFullYear();
+
+ReactDOM.render(
+  <div>
+    <p>Created by {myName}</p>
+    <p>Copyright {currentYear}</p>
+  </div>,
+  document.getElementById("root")
+);
